@@ -11,7 +11,7 @@
    &#x003c;dc:description&#x003e;This is the RDF Schema for the RDF vocabulary defined in the RDF namespace.&#x003c;/dc:description&#x003e;
  &#x003c;/owl:Ontology&#x003e;
 
-&#x003c;rdf:Property rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"&#x003e;
+&#x003c;rdf:Property rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#<a id="type">type</a>"&#x003e;
   &#x003c;rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/&#x003e;
   &#x003c;rdfs:label&#x003e;type&#x003c;/rdfs:label&#x003e;
   &#x003c;rdfs:comment&#x003e;The subject is an instance of a class.&#x003c;/rdfs:comment&#x003e;
