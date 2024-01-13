@@ -40,7 +40,7 @@
 &#x003c;Property ID="object"
   s:comment="Identifies the object of a statement when representing the statement in reified form" /&#x003e;
 
-&#x003c;Property ID="type"
+&#x003c;Property ID="<a id="type">type</a>"
   s:comment="Identifies the Class of a resource" /&#x003e;
 
 &#x003c;Property ID="value"
