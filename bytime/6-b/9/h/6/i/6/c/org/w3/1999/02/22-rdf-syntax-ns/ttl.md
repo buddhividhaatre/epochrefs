@@ -1,3 +1,4 @@
+<pre>
 <?xml version="1.0"?>
 
 <RDF
@@ -46,3 +47,4 @@
   s:comment="Identifies the principal value (usually a string) of a property when the property value is a structured resource" />
 
 </RDF>
+</pre>
