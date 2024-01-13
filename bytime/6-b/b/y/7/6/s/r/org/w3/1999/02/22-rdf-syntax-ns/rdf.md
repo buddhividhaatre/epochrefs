@@ -41,21 +41,21 @@
   &#x003c;rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/&#x003e;
 &#x003c;/rdf:Property&#x003e;
 
-<rdf:Property rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate">
-  <rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-  <rdfs:label>predicate</rdfs:label>
-  <rdfs:comment>The predicate of the subject RDF statement.</rdfs:comment>
-  <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
-  <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
-</rdf:Property>
+&#x003c;rdf:Property rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate"&#x003e;
+  &#x003c;rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/&#x003e;
+  &#x003c;rdfs:label&#x003e;predicate&#x003c;/rdfs:label&#x003e;
+  &#x003c;rdfs:comment&#x003e;The predicate of the subject RDF statement.&#x003c;/rdfs:comment&#x003e;
+  &#x003c;rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/&#x003e;
+  &#x003c;rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/&#x003e;
+&#x003c;/rdf:Property&#x003e;
 
-<rdf:Property rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#object">
-  <rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-  <rdfs:label>object</rdfs:label>
-  <rdfs:comment>The object of the subject RDF statement.</rdfs:comment>
-  <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
-  <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
-</rdf:Property>
+<rdf:Property rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#object"&#x003e;
+  <rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/&#x003e;
+  <rdfs:label&#x003e;object</rdfs:label&#x003e;
+  <rdfs:comment&#x003e;The object of the subject RDF statement.</rdfs:comment&#x003e;
+  <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/&#x003e;
+  <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/&#x003e;
+</rdf:Property&#x003e;
 
 <rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag">
   <rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
