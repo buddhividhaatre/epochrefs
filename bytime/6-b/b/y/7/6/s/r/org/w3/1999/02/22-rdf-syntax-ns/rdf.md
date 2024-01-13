@@ -1,44 +1,45 @@
-<rdf:RDF
+<pre>
+&#x003c;rdf:RDF
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:owl="http://www.w3.org/2002/07/owl#" 
-   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   xmlns:dc="http://purl.org/dc/elements/1.1/"&#x003e;
 
- <owl:Ontology 
-     rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <dc:title>The RDF Vocabulary (RDF)</dc:title>
-   <dc:description>This is the RDF Schema for the RDF vocabulary defined in the RDF namespace.</dc:description>
- </owl:Ontology>
+ &#x003c;owl:Ontology 
+     rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#"&#x003e;
+   &#x003c;dc:title&#x003e;The RDF Vocabulary (RDF)&#x003c;/dc:title&#x003e;
+   &#x003c;dc:description&#x003e;This is the RDF Schema for the RDF vocabulary defined in the RDF namespace.&#x003c;/dc:description&#x003e;
+ &#x003c;/owl:Ontology&#x003e;
 
-<rdf:Property rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
-  <rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-  <rdfs:label>type</rdfs:label>
-  <rdfs:comment>The subject is an instance of a class.</rdfs:comment>
-  <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
-</rdf:Property>
+&#x003c;rdf:Property rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"&#x003e;
+  &#x003c;rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/&#x003e;
+  &#x003c;rdfs:label&#x003e;type&#x003c;/rdfs:label&#x003e;
+  &#x003c;rdfs:comment&#x003e;The subject is an instance of a class.&#x003c;/rdfs:comment&#x003e;
+  &#x003c;rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/&#x003e;
+  &#x003c;rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/&#x003e;
+&#x003c;/rdf:Property&#x003e;
 
-<rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">
-  <rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-  <rdfs:label>Property</rdfs:label>
-  <rdfs:comment>The class of RDF properties.</rdfs:comment>
-  <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
-</rdfs:Class>
+&#x003c;rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"&#x003e;
+  &#x003c;rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/&#x003e;
+  &#x003c;rdfs:label&#x003e;Property&#x003c;/rdfs:label&#x003e;
+  &#x003c;rdfs:comment&#x003e;The class of RDF properties.&#x003c;/rdfs:comment&#x003e;
+  &#x003c;rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/&#x003e;
+&#x003c;/rdfs:Class&#x003e;
 
-<rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement">
-  <rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-  <rdfs:label>Statement</rdfs:label>
-  <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
-  <rdfs:comment>The class of RDF statements.</rdfs:comment>
-</rdfs:Class>
+&#x003c;rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"&#x003e;
+  &#x003c;rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/&#x003e;
+  &#x003c;rdfs:label&#x003e;Statement&#x003c;/rdfs:label&#x003e;
+  &#x003c;rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/&#x003e;
+  &#x003c;rdfs:comment&#x003e;The class of RDF statements.&#x003c;/rdfs:comment&#x003e;
+&#x003c;/rdfs:Class&#x003e;
 
-<rdf:Property rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#subject">
-  <rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-  <rdfs:label>subject</rdfs:label>
-  <rdfs:comment>The subject of the subject RDF statement.</rdfs:comment>
-  <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
-  <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
-</rdf:Property>
+&#x003c;rdf:Property rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#subject"&#x003e;
+  &#x003c;rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/&#x003e;
+  &#x003c;rdfs:label&#x003e;subject&#x003c;/rdfs:label&#x003e;
+  &#x003c;rdfs:comment&#x003e;The subject of the subject RDF statement.&#x003c;/rdfs:comment&#x003e;
+  &#x003c;rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/&#x003e;
+  &#x003c;rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/&#x003e;
+&#x003c;/rdf:Property&#x003e;
 
 <rdf:Property rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate">
   <rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
@@ -129,3 +130,4 @@
 
 </rdf:RDF>
 
+</pre>
