@@ -9,3 +9,7 @@ https://web.archive.org/web/20010121195200id_/http://www.w3.org/DesignIssues/Not
 https://web.archive.org/web/20051029010146id_/dajobe.org/2003/11/ntriplesplus/#verb
 
 https://github.com/linkeddata-import/swap/commit/a2d3156.patch
+
+https://dev.w3.org/cvsweb
+
+https://dvcs.w3.org/hg/
