@@ -7,3 +7,5 @@ https://web.archive.org/web/20031008235909id_/w3.org/2003/06/Process-20030618/or
 https://web.archive.org/web/20010121195200id_/http://www.w3.org/DesignIssues/Notation3#verb
 
 https://web.archive.org/web/20051029010146id_/dajobe.org/2003/11/ntriplesplus/#verb
+
+https://github.com/linkeddata-import/swap/commit/a2d3156.patch
