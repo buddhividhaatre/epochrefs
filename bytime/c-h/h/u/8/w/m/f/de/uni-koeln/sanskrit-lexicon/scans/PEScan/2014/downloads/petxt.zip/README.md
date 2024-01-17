@@ -5,5 +5,5 @@
   ** <a href="pe.txt">pe.txt</a>
   <sub><b>base36 encoded byte offset</b></sub>&#x0009;<sub><b>term</b></sub>
   ** xxxx&#x0009;&#x0009;Siddhi (<a href="0wmkv-1cxjx.txt#L6134">file</a> or <a href="../../../../../../../../../../../../../../../../../../commit/15dfea2#r137291936">commit</a>)&#x0009;&#x0009;hu8wmf/de,uni-koeln,sanskrit-lexicon)/scans/PEScan/2014/downloads/petxt.zip/pe.txt/xxxx
-  ** xxxx&#x0009;&#x0009;<a href="0wmkv-1cxjx.txt#L6134">Buddhi</a>&#x0009;&#x0009;hu8wmf/de,uni-koeln,sanskrit-lexicon)/scans/PEScan/2014/downloads/petxt.zip/pe.txt/xxxx
+  ** xxxx&#x0009;&#x0009;Buddhi (<a href="0wmkv-1cxjx.txt#L6134">file</a> or <a href="../../../../../../../../../../../../../../../../../../commit/15dfea2#r137291944">commit</a>)&#x0009;&#x0009;hu8wmf/de,uni-koeln,sanskrit-lexicon)/scans/PEScan/2014/downloads/petxt.zip/pe.txt/xxxx
 </pre>
