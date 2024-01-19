@@ -13,3 +13,7 @@ https://github.com/linkeddata-import/swap/commit/a2d3156.patch
 https://dev.w3.org/cvsweb
 
 https://dvcs.w3.org/hg/
+
+/bytime/6-b/9/7/f/k/0/q/org/w3/TR/1998/WD-rdf-schema-19981030
+/bytime/6-b/b/e/w/∅/∅/∅/org/w3/TR/2003/WD-rdf-schema-20030123
+/bytime/6-b/b/q/h/1/e/5/org/w3/TR/2003/WD-rdf-mt-20030905
